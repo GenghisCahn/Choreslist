@@ -26,7 +26,8 @@ body {
 }
 
 .wrapper {
-    width: 300px;
+    width: 50%;
+    min-width: 300px;
     margin: auto;
 }
 
@@ -70,12 +71,15 @@ button {
     border-radius: 5px;
 }
 
+
 .add-btn {
     background: #FFCC68;
+    max-width: 50px;
 }
 
 .remove-btn {
     background: #FF9548;
+    max-width: 50px;
 }
 
 .complete-chore-btn {
